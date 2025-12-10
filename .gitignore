@@ -1,0 +1,113 @@
+# --- Python virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- MacOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- VS Code / IDE settings ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.out
+*.err
+
+# --- Byte-compiled / optimized files ---
+*.so
+*.pyd
+
+# --- Model weights (Large files) ---
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+*.onnx
+
+# --- HuggingFace cache ---
+huggingface/
+~/.cache/huggingface/
+
+# --- Torch / Tensorflow cache ---
+*.pb
+*.pbtxt
+checkpoint/
+tf_ckpts/
+
+# --- Datasets ---
+data/
+datasets/
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Pipenv / Poetry ---
+Pipfile.lock
+poetry.lock
+
+# --- Test / coverage ---
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+.cache/
+pytest_cache/
+
+# --- Environment variables ---
+.env
+.env.*
+*.secret
+
+# --- Backup files ---
+*.bak
+*.old
+
+# --- Node / JS artifacts (in case you use JS UI) ---
+node_modules/
+npm-debug.log
+
+# --- VSCode Python bytecode ---
+.python-version
+
+
+
+
+#poem-generation-project/poetry_model/config.json
+#poem-generation-project/poetry_model/generation_config.json
+#poem-generation-project/poetry_model/special_tokens_map.json
+#poem-generation-project/poetry_model/tokenizer_config.json
+#poem-generation-project/poetry_model/vocab.json
+poem-generation-project/poetry_model/config.json
+poem-generation-project/poetry_model/generation_config.json
+poem-generation-project/poetry_model/special_tokens_map.json
+poem-generation-project/poetry_model/tokenizer_config.json
+poem-generation-project/poetry_model/vocab.json     
+poem-generation-project/poetry_model/merges.txt
+poem-generation-project/poetry_model/pytorch_model.bin
+poem-generation-project/poetry_model/model.safetensors
+poem-generation-project/poetry_model/
+
+
+
