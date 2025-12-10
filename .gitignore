@@ -99,15 +99,15 @@ npm-debug.log
 #poem-generation-project/poetry_model/special_tokens_map.json
 #poem-generation-project/poetry_model/tokenizer_config.json
 #poem-generation-project/poetry_model/vocab.json
-poem-generation-project/poetry_model/config.json
-poem-generation-project/poetry_model/generation_config.json
-poem-generation-project/poetry_model/special_tokens_map.json
-poem-generation-project/poetry_model/tokenizer_config.json
-poem-generation-project/poetry_model/vocab.json     
-poem-generation-project/poetry_model/merges.txt
-poem-generation-project/poetry_model/pytorch_model.bin
-poem-generation-project/poetry_model/model.safetensors
-poem-generation-project/poetry_model/
+poem-generation-project/poetry_model1/config.json
+poem-generation-project/poetry_model1/generation_config.json
+poem-generation-project/poetry_model1/special_tokens_map.json
+poem-generation-project/poetry_model1/tokenizer_config.json
+poem-generation-project/poetry_model1/vocab.json     
+poem-generation-project/poetry_model1/merges.txt
+poem-generation-project/poetry_model1/pytorch_model.bin
+poem-generation-project/poetry_model1/model.safetensors
+poem-generation-project/poetry_model1/
 
 
 
