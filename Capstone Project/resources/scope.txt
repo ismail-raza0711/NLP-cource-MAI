@@ -1,0 +1,82 @@
+2) What information you need (requirements & scope)
+A. User scenarios
+
+Define 3–5 scenarios that your chatbot must handle:
+
+Cold open from a match with a short bio
+
+Reviving a stalled conversation
+
+Suggesting a low-pressure first date
+
+Handling rejection politely
+
+Navigating boundaries (e.g., “not comfortable with that”)
+
+B. Conversation “skills” you will coach
+
+Pick a small, defensible set (5–8) that can be measured:
+
+Engagement (asks questions, responds to details)
+
+Relevance (references profile/context)
+
+Tone (friendly, respectful, not pushy)
+
+Clarity (short, coherent, low ambiguity)
+
+Empathy (acknowledges feelings)
+
+Safety/boundaries (no harassment/sexual pressure)
+
+Style control (playful vs. serious)
+
+C. Persona design for the “practice partner”
+
+Define persona parameters (so the simulator isn’t random):
+
+Conversation style: dry / warm / playful / shy / direct
+
+Interest topics: fitness, art, gaming, travel, etc.
+
+Responsiveness: short replies vs. long replies
+
+Boundaries: conservative vs. flirty (within safe limits)
+
+D. Data strategy (this matters for NLP grading)
+
+You have three viable routes—choose one based on course expectations:
+
+Synthetic data (most feasible)
+
+Use LLM-generated dialogues with controlled personas and labels (tone, engagement, boundary-handling).
+
+Pros: fast, controllable, privacy-safe.
+
+Cons: less “real-world messy.”
+
+Public conversational datasets (not Tinder-specific)
+
+Use open dialogue corpora to fine-tune style/flow, then adapt with prompts/rules.
+
+Pros: academically clean.
+
+Cons: domain mismatch (dating chat is short, informal).
+
+Small original dataset (high risk, IRB/privacy)
+
+Only if you can do consented collection or anonymized logs with strict ethics.
+
+For most capstones, I’d avoid this unless your program has a clear ethics pipeline.
+
+E. Ethical and safety requirements (you should explicitly include these)
+
+Do not encourage harassment, coercion, or deception.
+
+Provide boundary-respecting suggestions.
+
+Avoid sexual content guidance if it becomes explicit, and block disallowed content.
+
+Disclose: “Practice simulator; not guaranteed to improve real-world outcomes.”
+
+This section usually wins points with instructors.

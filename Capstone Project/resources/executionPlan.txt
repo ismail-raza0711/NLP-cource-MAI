@@ -1,0 +1,206 @@
+3) Plan of attack (step-by-step execution)
+Step 1 — Define scope and success metrics (1–2 pages)
+
+Deliverables:
+
+Use cases + constraints
+
+Skill rubric (what “good” looks like)
+
+Metrics you will report
+
+Example measurable outputs:
+
+“Engagement score” (0–1)
+
+“Politeness/toxicity risk” score
+
+“Context usage” score (did it reference bio?)
+
+Human ratings: helpfulness, realism, appropriateness
+
+Step 2 — System architecture (make it modular)
+
+A clean, grad-level architecture:
+
+Persona + scenario manager
+
+Chooses scenario + practice partner persona.
+
+Dialogue generator (practice partner)
+
+Produces the other person’s replies.
+
+Coach module
+
+Scores the user’s message and suggests improvements.
+
+Outputs: (a) short feedback, (b) 2–3 rewrites with different tones.
+
+Safety/Policy layer
+
+Filters unsafe content and blocks disallowed guidance.
+
+Enforces boundaries and respectful behavior.
+
+Logger + evaluation harness
+
+Saves conversations, scores, and user ratings for experiments.
+
+Step 3 — Build a minimal prototype (MVP)
+
+MVP features (keep tight):
+
+One persona + one scenario
+
+Turn-by-turn chat
+
+Feedback after each user message (1–3 bullet points)
+
+“Try again” button: rewrite options
+
+Your goal is to get something testable early.
+
+Step 4 — Add controlled diversity
+
+Expand systematically:
+
+6–10 personas
+
+5 scenarios
+
+Style toggles: “playful,” “direct,” “wholesome,” “witty”
+
+Difficulty levels (short replies, slow replies, ambiguous replies)
+
+Step 5 — Implement scoring (rubric-based + model-based)
+
+A strong approach is hybrid evaluation:
+
+Rule-based features (interpretable)
+
+Question count, message length, pronoun usage
+
+Keyword overlap with profile
+
+Response time simulation (optional)
+
+Basic politeness patterns
+
+Model-based classifiers (NLP substance)
+
+Toxicity/harassment risk classifier
+
+Politeness classifier
+
+Intent classifier (question / statement / escalation / date suggestion)
+
+Optional: sentiment + empathy detection
+
+Even simple baseline models (logreg, SVM, small transformer) are defensible for a course.
+
+Step 6 — Evaluation (this is where your grade is won)
+
+You want at least two evaluation modes:
+
+A. Automatic evaluation
+
+Distribution of scores across scenarios/personas
+
+Safety filter precision/recall on a labeled test set (even 200–500 examples)
+
+Coaching consistency: do rewrites improve the score?
+
+B. Human evaluation (small user study)
+
+8–20 participants is often enough for capstone
+
+Within-subject design: with-coach vs. without-coach
+
+Measures: perceived helpfulness, realism, confidence, appropriateness
+
+Collect brief qualitative comments
+
+Step 7 — Write-up and demo
+
+Your final presentation should include:
+
+Live demo with 2 personas and a boundary-handling scenario
+
+Ablation: with safety layer vs. without; with coach vs. without
+
+Results charts (human ratings + classifier metrics)
+
+Ethics and limitations
+
+4) What to include in your final presentation deck
+
+Suggested slide outline (10–12 slides):
+
+Motivation + user pain point
+
+Problem definition and scope
+
+System overview diagram
+
+Persona/scenario design
+
+Coaching rubric (what you score)
+
+Modeling approach (generator + scorers + safety)
+
+Data strategy (synthetic/public, labeling)
+
+Evaluation design (automatic + human study)
+
+Results
+
+Demo screenshots or short live demo
+
+Ethics, safety, and limitations
+
+Next steps
+
+5) Practical “capstone-safe” positioning
+
+To keep this academically and ethically strong, position it as:
+
+“communication practice” and “social confidence”
+
+“respectful messaging and boundary awareness”
+
+“not a manipulation tool”
+
+“no scraping / no platform integration required”
+
+6) A concrete 4-week execution schedule (adaptable)
+
+Week 1: Definition + MVP
+
+Requirements, rubric, architecture
+
+Basic chat UI + one persona + coach feedback
+
+Week 2: Data + scorers
+
+Create labeled examples (synthetic + manual checks)
+
+Train baseline classifiers (politeness/toxicity/intent)
+
+Add profile-conditioning
+
+Week 3: Personas + scenarios + safety
+
+Expand scenario library
+
+Add safety guardrails and refusal patterns
+
+Logging + evaluation harness
+
+Week 4: Evaluation + report
+
+Run user study
+
+Metrics + charts
+
+Final write-up + demo polish

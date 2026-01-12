@@ -1,0 +1,27 @@
+1) How to present it (capstone framing)
+Working title
+
+“Safe, Feedback-Driven Conversational Practice for Dating-App Messaging”
+(You can mention Tinder as inspiration, but keep the project presented as platform-agnostic to avoid trademark/ToS complications.)
+
+30-second pitch (what you’d say in class)
+
+Users struggle with opening messages, maintaining flow, and reading tone in dating-app chats.
+
+You propose a practice environment that simulates realistic dialogue and provides coaching feedback: clarity, tone, empathy, engagement, and boundary-respect.
+
+The system is evaluated with reproducible NLP metrics and user-study measures (e.g., perceived helpfulness, conversational naturalness, reduction in awkward/unsafe messages).
+
+Problem statement
+
+“Design and evaluate an NLP system that helps users practice short-form, dating-app style conversations by simulating diverse partner personas and delivering actionable feedback on conversational quality and safety.”
+
+Capstone contributions (what you can claim academically)
+
+A conversation simulator with persona control.
+
+A feedback engine (rubrics + automated scoring).
+
+A safety layer (policy + classifier/guardrails).
+
+An evaluation protocol (automatic + human evaluation).

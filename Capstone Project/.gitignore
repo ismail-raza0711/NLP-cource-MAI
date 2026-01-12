@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/logs/
+models/
+data/results/
+data/memory/
+
+#LLM binaries
+*.gguf
+models/gguf/
+
+#Archived Experiments
+archive/
+
+*.code-workspace
