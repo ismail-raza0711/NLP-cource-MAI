@@ -6,7 +6,9 @@ This project follows a versioned, experimental development process suitable for 
 
 ---
 
-## [v0.5.2] — Trust-Tier Safety + Identity Guard (Current)
+## [v0.6.0] - Real Profiles + Style Planner (FINAL)
+
+Frozen final release (no further features).
 
 ### Added
 - Conversation phase tracking with conservative transitions and debug output.
@@ -20,6 +22,10 @@ This project follows a versioned, experimental development process suitable for 
 - Session blocking for repeated escalation or low engagement.
 - Trust-level safety tiers with consent logging.
 - Identity lock and reality guard for consistent, plausible replies.
+- Real profile cards (bio + photos) and deterministic /profile /pics /name replies.
+- Personality-driven response planner with style debug output.
+- Final evaluation runner `src/eval_final_v0_6.py` with output at `data/results/final_v0_6_report.json`.
+- Final project README with reproducible commands.
 
 ### Changed
 - Chat entrypoint updated to `python -m src.chat_v0_5_chatbot`.
